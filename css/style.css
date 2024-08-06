@@ -106,3 +106,33 @@ body {
     align-items: center;
     margin: 0 auto 206px;
 }
+.about {
+    height: 1129px;
+    padding-top: 128px;
+    padding-bottom: 271px;
+    background:
+        url(../img/buildings__black.png) center bottom repeat-x,
+        url(../img/buildings__white.png) center bottom repeat-x
+        #1d1d1d;
+}
+.about_inner {
+}
+.about_item {
+    width: 417px;
+    height: 276px;
+    background-color: #181818;
+}
+.about_year {
+    font-family: 'HelveticaNeueLTProLt', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+}
+.about_text {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #b7b7b7;
+}
