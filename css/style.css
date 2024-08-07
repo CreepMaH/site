@@ -114,13 +114,22 @@ body {
         url(../img/buildings__black.png) center bottom repeat-x,
         url(../img/buildings__white.png) center bottom repeat-x
         #1d1d1d;
+    /*background-size: contain;*/
 }
 .about_inner {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: max-content max-content;
+    gap: 178px;
 }
 .about_item {
     width: 417px;
     height: 276px;
     background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .about_year {
     font-family: 'HelveticaNeueLTProLt', sans-serif;
@@ -128,6 +137,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #fefefe;
+    margin-bottom: 27px;
 }
 .about_text {
     font-family: "Montserrat-Light", sans-serif;
@@ -135,4 +145,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.02em;
     color: #b7b7b7;
+    line-height: 22px;
+    margin: 13px;
 }
