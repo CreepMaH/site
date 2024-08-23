@@ -106,6 +106,7 @@ body {
     align-items: center;
     margin: 0 auto 206px;
 }
+/*О нас*/
 .about {
     height: 1129px;
     padding-top: 128px;
@@ -121,6 +122,7 @@ body {
     grid-template-rows: max-content max-content;
     grid-template-columns: max-content max-content;
     gap: 178px;
+    place-content: center center;
 }
 .about_item {
     width: 417px;
@@ -147,4 +149,25 @@ body {
     color: #b7b7b7;
     line-height: 22px;
     margin: 13px;
+}
+/*Команда*/
+.team {
+}
+.block_header {
+}
+.block_title {
+}
+.block_text {
+}
+.team_inner {
+}
+.team_item {
+}
+.team_item-img {
+}
+.team_item-title {
+}
+.team_item-text {
+}
+.team_icon-box {
 }
