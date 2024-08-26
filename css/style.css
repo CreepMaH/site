@@ -112,8 +112,8 @@ body {
     padding-top: 128px;
     padding-bottom: 271px;
     background:
-        url(../img/buildings__black.png) center bottom repeat-x,
-        url(../img/buildings__white.png) center bottom repeat-x
+        url(../img/buildings__black.png) center 101% repeat-x,
+        url(../img/buildings__white.png) center 101% repeat-x
         #1d1d1d;
     /*background-size: contain;*/
 }
@@ -152,22 +152,61 @@ body {
 }
 /*Команда*/
 .team {
+    height: 745px;
 }
 .block_header {
+    text-align: center;
 }
 .block_title {
+    font-family: 'HelveticaNeueLTProLt', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    margin-bottom: 13px;
+    padding-top: 138px;
 }
 .block_text {
+    font-family: 'Merriweather-LightItalic', sans-serif;;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin: 0;
 }
 .team_inner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 127px;
 }
 .team_item {
+    text-align: center;
 }
 .team_item-img {
+    margin-bottom: 0;
 }
 .team_item-title {
+    font-family: 'HelveticaNeueLTProLt', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+    margin: 0;
+    padding-top: 25px;
 }
 .team_item-text {
+    font-family: 'HelveticaNeueLTProLt', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    margin: 0;
+    padding-top: 7px;
 }
-.team_icon-box {
+.team_icon-box img {
+    font-size: 20px;
+    color: #e4e4e4;
+    transition: 0.2s;
+    padding-top: 22px;
 }
