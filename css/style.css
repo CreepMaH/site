@@ -167,7 +167,7 @@ body {
     padding-top: 138px;
 }
 .block_text {
-    font-family: 'Merriweather-LightItalic', sans-serif;;
+    font-family: 'Merriweather-LightItalic', sans-serif;
     font-size: 16px;
     font-weight: 300;
     font-style: italic;
@@ -209,4 +209,30 @@ body {
     color: #e4e4e4;
     transition: 0.2s;
     padding-top: 22px;
+}
+.provide {
+    width: 1200px;
+    height: 835px;
+    background-color: #181818;;
+}
+.provide-header {
+    font-family: 'HelveticaNeueLTProLt', sans-serif;
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 176px;
+}
+.provide-header-text {
+    font-family: 'Merriweather-LightItalic', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #777777;
+    text-align: center;
+    padding-top: 5px;
 }
